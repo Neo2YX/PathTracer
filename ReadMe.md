@@ -1,48 +1,48 @@
-# ¼ÆËã»úÍ¼ÐÎÑ§×÷ÒµËµÃ÷ÎÄµµ
+# è®¡ç®—æœºå›¾å½¢å­¦ä½œä¸šè¯´æ˜Žæ–‡æ¡£
 
   
-ºØÔÆÅô ?22121031
+è´ºäº‘é¹ 22121031
 
   
 
 ---
 
-## 1 ¹¦ÄÜÊµÏÖ
+## 1 åŠŸèƒ½å®žçŽ°
 
-±¾´Î×÷ÒµÊµÏÖÁËÃÉÌØ¿¨ÂåÂ·¾¶×·×ÙËã·¨£¬¾ßÌåÊµÏÖ¿ò¼ÜÈçÏÂ£º
+æœ¬æ¬¡ä½œä¸šå®žçŽ°äº†è’™ç‰¹å¡æ´›è·¯å¾„è¿½è¸ªç®—æ³•ï¼Œå…·ä½“å®žçŽ°æ¡†æž¶å¦‚ä¸‹ï¼š
 
-+ BVH¼ÓËÙ½á¹¹
++ BVHåŠ é€Ÿç»“æž„
 
-+ ÃÉÌØ¿¨ÂåÂ·¾¶×·×Ù
++ è’™ç‰¹å¡æ´›è·¯å¾„è¿½è¸ª
 
 + MIS
 
   
 
-## 2 ±à³Ì»·¾³
+## 2 ç¼–ç¨‹çŽ¯å¢ƒ
 
-²Ù×÷ÏµÍ³£ºWindows11¼ÒÍ¥ÖÐÎÄ°æ
+æ“ä½œç³»ç»Ÿï¼šWindows11å®¶åº­ä¸­æ–‡ç‰ˆ
 
-³ÌÐò±àÒëÊ¹ÓÃ**Visual Studio 2022**
+ç¨‹åºç¼–è¯‘ä½¿ç”¨**Visual Studio 2022**
 
   
-³ÌÐòÔËÐÐËµÃ÷£º
+ç¨‹åºè¿è¡Œè¯´æ˜Žï¼š
 
-ÔÚsrc/main.cppÎÄ¼þÖÐ£¬Èý¸öº¯Êý`DrawCornellBox(int draw_cnt)`¡¢`DrawVeachMIS(int draw_cnt)`¡¢`DrawStairscase(int draw_cnt)`·Ö±ðÓÃÓÚ»æÖÆÈý¸öÄ£ÐÍ£¬draw_cnt´ú±í»æÖÆ´ÎÊý£¬Ã¿´ÎsppÎª5¡£»æÖÆ½á¹û±£´æÔÚMCPathTracer/MCPathTracer¡£ÏÂÍ¼ÊÇ»æÖÆÁË100´ÎºóµÄ½á¹û£¨spp=500£©
+åœ¨src/main.cppæ–‡ä»¶ä¸­ï¼Œä¸‰ä¸ªå‡½æ•°`DrawCornellBox(int draw_cnt)`ã€`DrawVeachMIS(int draw_cnt)`ã€`DrawStairscase(int draw_cnt)`åˆ†åˆ«ç”¨äºŽç»˜åˆ¶ä¸‰ä¸ªæ¨¡åž‹ï¼Œdraw_cntä»£è¡¨ç»˜åˆ¶æ¬¡æ•°ï¼Œæ¯æ¬¡sppä¸º5ã€‚ç»˜åˆ¶ç»“æžœä¿å­˜åœ¨MCPathTracer/MCPathTracerã€‚ä¸‹å›¾æ˜¯ç»˜åˆ¶äº†100æ¬¡åŽçš„ç»“æžœï¼ˆspp=500ï¼‰
 
 
 
 ![](doc/VeachMIS_result.jpg)
 ![](doc/Staircase_result.jpg)
 ![](doc/CornellBox_result.jpg)
-## 3 µÚÈý·½¿âÊ¹ÓÃ
+## 3 ç¬¬ä¸‰æ–¹åº“ä½¿ç”¨
 
 
-+ Eigen C++ÏßÐÔ´úÊýº¯Êý¿â
++ Eigen C++çº¿æ€§ä»£æ•°å‡½æ•°åº“
 
-+ `Window.h` Èí¹âÕ¤£¬ÊµÊ±ÏÔÊ¾»æÖÆÍ¼Ïñ
++ `Window.h` è½¯å…‰æ …ï¼Œå®žæ—¶æ˜¾ç¤ºç»˜åˆ¶å›¾åƒ
 
-+ `stb_image.h` ?Í¼Ïñ½âÂë¿â£¬ÓÃÓÚ¶ÁÈëÍ¼Ïñ
++ `stb_image.h` ?å›¾åƒè§£ç åº“ï¼Œç”¨äºŽè¯»å…¥å›¾åƒ
 
-+ `stb_image_write.h` ÓÃÓÚ±£´æ½á¹ûÍ¼Ïñ
++ `stb_image_write.h` ç”¨äºŽä¿å­˜ç»“æžœå›¾åƒ
 
